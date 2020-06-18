@@ -72,5 +72,5 @@ Une fois que vous aurez prototypé votre application en local, vous pourriez dé
 
 Vous pourriez également détecter les goulots d'étranglement de votre application et,si possible, proposer des solutions permettant de s'en affranchir. 
 
-Copyrights
+# Copyrights
 - OpenClassrooms
