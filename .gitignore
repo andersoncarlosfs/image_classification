@@ -1,0 +1,8 @@
+/.cache/
+/.config/
+/.idea/
+/.ipython/
+/.ipynb_checkpoints/
+/.ivy2/
+/.jupyter/
+/.local/
