@@ -1,0 +1,15 @@
+---
+version: '3'
+services:
+  jupyter:
+    volumes:
+      - ./:/home/jovyan/
+    image: jupyter/pyspark-notebook:latest
+    restart: on-failure
+    command: >
+      start-notebook.sh
+      --no-browser
+      --NotebookApp.token=
+      --NotebookApp.password=
+    ports:
+      - 8888:8888
